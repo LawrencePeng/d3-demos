@@ -61,7 +61,7 @@ d3.csv("data/states-profits.csv", data => {
         } else {
           return "#ccc";
         }
-      })
+      });
 
     svg.selectAll("text")
       .data(json.features)
