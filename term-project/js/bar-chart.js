@@ -19,6 +19,7 @@ d3.csv('data/Global Superstore USA.csv', data => {
   for (let i = 0; i < data.length; ++i) {
     categorySet[data[i].Category].add(data[i].SubCategory);
   }
+  console.log(categorySet);
 
   let sortByCate = [];
   Object.values(categorySet).forEach((value, index) => {
@@ -66,7 +67,7 @@ d3.csv('data/Global Superstore USA.csv', data => {
     .on('mouseout', function(d) {
       d3.select(this)
         .transition()
-        .duration(250)
+        .duration(2000)
         .attr('fill', d => {
           if (d < 20000) {
             return 'rgb(0, 0, 60)'
