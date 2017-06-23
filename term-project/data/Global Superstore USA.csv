@@ -1,4 +1,4 @@
-Segment,State,Category,Sub-Category,Sales,Quantity,Discount,Profit,Shipping Cost
+Segment,State,Category,SubCategory,Sales,Quantity,Discount,Profit,Shipping Cost
 Consumer,New York,Technology,Accessories,2309.65,7,0,762.1845,933.57
 Corporate,California,Office Supplies,Binders,5083.96,5,0.2,1906.485,867.69
 Consumer,North Carolina,Furniture,Tables,4297.644,13,0.4,-1862.3124,865.74
